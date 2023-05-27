@@ -35,20 +35,20 @@ const Menu = () => {
             ></MenuCategory>
             <MenuCategory
                 items={pizza}
-                title="PIZZA"
+                title="pizza"
                 details="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
                 img='https://i.ibb.co/q1XJpqY/pizza-bg.jpg'
             ></MenuCategory>
 
             <MenuCategory
                 items={salad}
-                title="SALAD"
+                title="salad"
                 details="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
                 img='https://i.ibb.co/GMJCmNK/salad-bg.jpg'
             ></MenuCategory>
             <MenuCategory
                 items={soup}
-                title="Soup"
+                title="soup"
                 details="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
                 img='https://i.ibb.co/026X5WR/soup-bg.jpg'
             ></MenuCategory>
