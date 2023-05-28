@@ -9,7 +9,7 @@ import OrderTab from '../OrderTab/OrderTab';
 import { useParams } from 'react-router-dom';
 
 const Order = () => {
-    const categories = ['salad', 'pizza', 'soups', 'desserts', 'drinks'];
+    const categories = ['salad', 'pizza', 'soups', 'DESSERT', 'drinks'];
     const {category }= useParams();
     const initialIndex = categories.indexOf(category);
     const [textIndex, setTabIndex] = useState(initialIndex);
@@ -31,7 +31,7 @@ const Order = () => {
             <Cover
                 img="https://i.ibb.co/hdVbwqQ/banner2.jpg" title='ORDER FOOD' details="Would you like to try a dish?"
             ></Cover>
-            <Tabs defaultIndex={1} onSelect={(index) => setTabIndex(index)}>
+            <Tabs defaultIndex={initialIndex} onSelect={(index) => setTabIndex(index)}>
                 <TabList>
                     <Tab>SALAD</Tab>
                     <Tab>PIZZA</Tab>
