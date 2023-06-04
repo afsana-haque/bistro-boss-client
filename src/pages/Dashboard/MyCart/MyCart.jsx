@@ -51,7 +51,7 @@ const MyCart = () => {
             <div className='uppercase font-semibold h-[60px] flex justify-evenly items-center gap-8 mt-24  mb-5'>
                 <h3 className='text-3xl'>Total Items: {cart.length}</h3>
                 <h3 className='text-3xl'>Total Price: {total}</h3>
-                <button className="btn btn-warning">Play</button>
+                <button className="btn btn-info bg-blue-300">Play</button>
             </div>
             <div className="overflow-x-auto w-full">
                 <table className="table w-full">

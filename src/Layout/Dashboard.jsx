@@ -22,15 +22,15 @@ const Dashboard = () => {
 
                     <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
                 </div>
-                <div className="drawer-side bg-[#D1A054] ">
+                <div className="drawer-side bg-blue-200 ">
                     <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 ">
 
                         {
                             isAdmin ? <>
                                 <li><NavLink to='/dashboard/home'><FaHome /> Admin Home</NavLink></li>
-                                <li><NavLink to='/dashboard/reservation'><FaUtensils/> add items</NavLink></li>
-                                <li><NavLink to='/dashboard/'><FaWallet /> Manage items</NavLink></li>
+                                <li><NavLink to='/dashboard/addItem'><FaUtensils/> Add items</NavLink></li>
+                                <li><NavLink to='/dashboard/manageItems'><FaWallet /> Manage items</NavLink></li>
                                 <li><NavLink to='/dashboard/bookings'><FaBook /> Manage bookings</NavLink></li>
                                 <li><NavLink to='/dashboard/allusers'><FaUsers /> All Users</NavLink></li>
                               
